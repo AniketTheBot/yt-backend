@@ -6,7 +6,6 @@ const asyncHandler = (requestHandler) => {
   };
 };
 
-export { asyncHandler };
 
 // const asyncHandler = () => {};
 // const asyncHandler = (func) => {
@@ -19,12 +18,14 @@ export { asyncHandler };
 
 // const asyncHandler = (fn) => async (req, res, nect) => {
 //     try{
-//         await fn(req, res, next)
+//       await fn(req, res, next)
 //     }
 //     catch(error){
 //         res.status(error.code || 500).json({
-//             success: false,
-//             message: error.message
+//           success: false,
+//           message: error.message
 //         })
 //     }
-// };
+//   };
+  
+//   export { asyncHandler };
